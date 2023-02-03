@@ -1,0 +1,7 @@
+site_name: P-Tra
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
