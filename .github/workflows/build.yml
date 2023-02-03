@@ -31,6 +31,16 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: actions/deploy-pages@v1
+      - uses: actions/deploy-pages@v1
+        with:
+          emit_telemetry: false
+          token: ***
+          timeout: 600000
+          error_count: 10
+          reporting_interval: 5000
+          artifact_name: github-pages
+          preview: false
+      - run: pip install mkdocs
+      - run: mkdocs gh-deploy --force
           echo Add other actions to build,
           echo test, and deploy your project.
