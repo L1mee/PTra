@@ -20,3 +20,9 @@ Every input gets mapped via function to a certain score. The potential actions t
 - Better quality
 
 Implementing the reduced predictability is also easily possible. Instead of choosing the highest scoring action one might add a weighted picker based on the score. E.g. with a score of 0.9 an action has a 90% weight. Each following action can be added in the remaining 10% and evaluated. There might be some math necessary and the action evaluating itself needs to be a little more precise.
+
+**Input Parameter**
+
+- Proximity to Player
+- Knows of Player
+- ...
