@@ -26,3 +26,12 @@ Implementing the reduced predictability is also easily possible. Instead of choo
 - Proximity to Player
 - Knows of Player
 - ...
+
+**Purpose**
+
+There might be different purposes depending on the agent. Some could be:
+
+- Prevent the player from stealing the egg. At the start this could be scaring the player away, whilst ultimately trying to get the egg back.
+- Hostile towards the player. They might want to eat them.
+- Territorial. Hostile towards player based on the location, otherwise they are indifferent.
+- Swarm intelligence. Sentient alien race as the main antagonistic force.
