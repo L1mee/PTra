@@ -35,3 +35,6 @@ There might be different purposes depending on the agent. Some could be:
 - Hostile towards the player. They might want to eat them.
 - Territorial. Hostile towards player based on the location, otherwise they are indifferent.
 - Swarm intelligence. Sentient alien race as the main antagonistic force.
+
+**Actions**
+

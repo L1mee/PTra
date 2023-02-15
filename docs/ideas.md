@@ -7,6 +7,16 @@
 
 ---
 
+## Story
+
+Throughout the missions the player finds story elements and clues towards something special to the alien race. This is, so to say, their One Piece.
+
+A spie contacts you to uplift the organisation.
+
+You start to unite the workers which ultimately leads to a rebellion.
+
+---
+
 ## Player abilities, tools and weapons
 
   - ### Stungun
