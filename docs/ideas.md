@@ -132,3 +132,53 @@ Alien specific abilities, though not every creatures can use all of these abilit
   - ### More options/brains instead of muscle
 
     Instead of becoming overpowered the player gets more options. The environment and obstacles still get harder though, but the main focus should be the player getting better at the game. This means no weapons that simply deal more damage.
+
+---
+
+## Alien technology
+
+On multiple occasions the player may find ancient alien ruins. Portable power sources and other technological equipment can be used to get deeper in those ruins. Those ruins are either required as passage way to an objective or contain additional ressources, upgrades or story elements. Difficulty scales based on the usable puzzle elements. It is important, that there are multiple options to prevent a linear puzzle experience where the solution is straightforward.
+
+Visual feedback is shown by animations and particles that show the player what certain actions do. Interactables are also equiped with a slight effect, like tiny sparkles.
+
+### Lore & description
+
+The alien technology is based on an impulse system. Power cells emit a steady pulse that runs through the linked systems. Levers then convert the impuls to an action, when linked to a door this can be either open or close, the state of the door itself does not require any power. This changes per linked object, some objects need constant power to maintain their state. Since this system is running on impulse the conservation of momentum (Impulserhaltung) dictates that only the last-linked system is powered. This only applies to "work" being done, so a turned-on lever linked to an open door is not considered to "use up" that impulse.
+
+(They can be separated into two categories: Impulse and constant power. More categories might be added in the future)
+
+Since this impulse system is different from electricity no circuit is required. Instead of parallel connections the signal is simply split up, with both ends being considered for "last-linked". However different machines/actions might require stronger impulses, a split only provides each side with exactly half impulse power. Some machines simply won't run properly under these cirumstances. This can easily be achieved by adding an additional impulse cell to the entire circuit. Whenever there are two impulse cells on the same line the last two systems are powered. A split always splits in two lines, so there are only ever power states of 1, 1/2, 1/4, 1/8 and less. Power states above 1 are always rounded down visually and only internally processed as a higher number. Lower power states are shown with a weaker impulse.
+
+The first obstacle: A nice introduction to alien technology is a very basic door with a powercell and a lever. The player needs to put back the powercell and flip the lever to get through the door. Levers stay in their last position no matter the power, so the sequence is not important here.
+
+(This might open potential mechanics for overloading the system that then forcefully flicks the lever by overloading)
+
+More advanced obstacle: Multiple power cells are required in a two-stage puzzle. The first challenge is getting through to the first additional impulse cell that then opens a pathway to the second stage that makes use of both impulse cells.
+
+**Attributes**
+
+  - Impulse cell: Generates impulses
+  - Series connection
+  - Parallel connection
+  - Door (Impulse power): Opens pathway
+  - Restoration device (Constant power): Creates new pathways
+  - Dropper (IP): Drops an item/device
+  - Bridge (CP): Transfers impulse to a different location
+  - Lights (CP): Lights up a previously unlit area, highlighting a code or something useful previously invisible
+  - Moving elements (CP): Moving pathways
+  - Distraction (IP/CP): A noise or something used to distract enemies
+  - Custom effects (IP/CP): Whatever else might work in the area
+  - Piston (IP/CP): Push forward once per impulse, might clear a previously blocked lever
+  - Motor (CP): Powers something that requires a motor to run
+  - Overload: Forces a system running on IP to switch states
+  - Lever: Switches state of the attached machine
+
+### More ideas
+
+Contributing the impulse could be part of the puzzle too.
+
+## Other puzzle ideas
+
+Underlying mechanic: Sudoku based puzzle where different symbols/objects need to be aligned.
+
+However this is outside of the usual 9x9 grid and instead only focusses on finding a few specific pieces for one tiny scenario.
