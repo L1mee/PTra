@@ -18,3 +18,4 @@
   - AI
   - Organisation
   - Tech Art
+  - Inventory/Items

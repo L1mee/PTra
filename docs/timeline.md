@@ -1,4 +1,4 @@
-# Tasks
+# Tasks Milestone No. 1
 
 ## Prototype (Programming)
 
@@ -11,6 +11,7 @@
   - Pipeline layer (functionality for future integrations)
   - Underlying structure (where to walk etc.)
   - Pipeline Lighting
+  - Items/Inventory
 
 
 ## Level (Game Design)
@@ -20,14 +21,15 @@
   - GDD
 
 
-## Art
+## Art (all Artists make Concept Art)
 
-  - Pipeline Animations
-  - Pipeline Floor
-  - Pipeline Lighting
+  - Pipeline Animations (Felix)
+  - Pipeline Floor (Lukas 4, Felix)
+  - Pipeline Lighting (Miriam, Felix)
   - Concept Art: Creatures
+  - Concept Art: Character
   - Concept Art: Base
-  - Concept Art: Environment
+  - Concept Art: Environment (Lukas 4)
   - Concept Art: Everything else
 
 
@@ -67,4 +69,4 @@
   - Share knowledge
   - Share Updates (on a regular basis, no "big reveals")
   - Information regarding tasks
-  - Integration (eg. how to setup animations in unity and combine them with gameplay, also talk about it the workflow before to prevent issues)
+  - Integration (eg. how to setup animations in unity and combine them with gameplay, also talk about it the workflow/pipeline before to prevent issues)
