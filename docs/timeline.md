@@ -8,8 +8,9 @@
   - Sound (placeholder)
   - Basic enemy
   - Puzzle mechanics (integrated, if ready)
-  - Workflow depth (functionality for future integrations)
+  - Pipeline layer (functionality for future integrations)
   - Underlying structure (where to walk etc.)
+  - Pipeline Lighting
 
 
 ## Level (Game Design)
@@ -21,8 +22,9 @@
 
 ## Art
 
-  - Workflow Animations
-  - Workflow Floor
+  - Pipeline Animations
+  - Pipeline Floor
+  - Pipeline Lighting
   - Concept Art: Creatures
   - Concept Art: Base
   - Concept Art: Environment
@@ -36,6 +38,7 @@
   - Pause
   - Exit
   - In-Game UI (there might not be any actual UI in game)
+  - Concepts
 
 
 ## Sound
