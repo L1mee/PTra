@@ -48,10 +48,16 @@ Concept Art & Mood Boards
 
 WIP
 
+Everytime the player dies the haircolor gets darker (or brighter?)
+
 
 ### Walkthrough
 
-WIP
+  - player starts in base
+  - prepares scan and checks equipment
+  - drops down to planet surface
+  - leaves ship top left (according to scan)
+  - stumbles upon footprints
 
 
 ---
