@@ -21,3 +21,6 @@ WIP, Alien ruins that have a lot of history and ressources to uncover.
 ### Base Building & Equipment
 
 WIP, Preparation for the actual level, safe zone.
+
+
+Exploration Horror Stealth Mission Based wo man im Laufe des Spiels Alienartefakte findet um sich von der Black Org loszusagen
